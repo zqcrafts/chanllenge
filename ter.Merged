@@ -1,0 +1,2745 @@
+commit 3620bb74893ef688b3243652042660e1b5866d5e
+Author: ZhangShilong <61961338+jshilong@users.noreply.github.com>
+Date:   Mon Feb 1 15:36:45 2021 +0800
+
+    add a abvious import (#4552)
+
+commit 6c1347d7c0fa220a7be99cb19d1a9e8b6cbf7544
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Mon Feb 1 13:05:36 2021 +0800
+
+    Bump to v2.9.0 (#4557)
+    
+    * bump to v2.9.0
+    
+    * update
+
+commit f07de13b82b746dde558202f720ec2225f276d73
+Author: ZhangShilong <61961338+jshilong@users.noreply.github.com>
+Date:   Fri Jan 29 13:17:18 2021 +0800
+
+    Add guidance for speed benchmark (#4537)
+    
+    * add a guidance for benchmark speed
+    
+    * add training time guidance
+    
+    * fix typos
+    
+    * fix url
+    
+    * fix type
+
+commit 186e391704dc72dbe6e01e6f15a779dc486730fa
+Author: Thang Vu <thangvubk@gmail.com>
+Date:   Fri Jan 29 12:07:08 2021 +0900
+
+    fix num_classes and minor (#4546)
+    
+    * fix num_classes and minor
+    
+    * update converted models
+
+commit 40f168937df45986d6159f9c0b4735a9cdcd350a
+Author: Thang Vu <thangvubk@gmail.com>
+Date:   Thu Jan 28 20:49:42 2021 +0900
+
+    Code for AAAI 2021 paper. "SCNet: Training Inference Sample Consistency for Instance Segmentation" (#4356)
+    
+    * add scnet
+    
+    * add more configs and minors
+    
+    * fix unittest for scnet
+    
+    * update docstring
+    
+    * add forward test for htc and scnet
+    
+    * fix build on pytorch 1.3 for empty tensor
+    
+    * update doc string and minor refactor
+    
+    * update unit-test and use inheritance for SCNet heads
+    
+    * support scnet tta
+    
+    * minor
+    
+    * update readme
+    
+    * minor fixes
+
+commit 31809ece8783e3be3fe9ab9970f096deecd5ea7e
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Thu Jan 28 16:11:09 2021 +0800
+
+    Support R50 and R101 pretrained PAA detectors for multi-scale 3x training schedules (#4495)
+    
+    * fix #4181, invalid link in readme for maskrcnn cityscapes
+    
+    * undo
+    
+    * add config for paa_r50_fpn_mstrain_3x_coco.py
+    
+    * reformat for CI building
+    
+    * add config paa_r101_fpn_mstrain_3x_coco.py
+    
+    * add r50 and r101 multiscale training 3x performance
+    
+    * add pretrained model link
+
+commit bcb519021a77ff3fb8d8f4c18e0f94cc882c1447
+Author: Thang Vu <thangvubk@gmail.com>
+Date:   Wed Jan 27 20:49:09 2021 +0900
+
+    fix lint (#4539)
+
+commit 1b7fb9306cea3dee86e8ef8018d1a68c49b11365
+Author: ZhangShilong <61961338+jshilong@users.noreply.github.com>
+Date:   Wed Jan 27 16:57:56 2021 +0800
+
+    add CompatibleCheckHook (#4508)
+    
+    * add CompatibleCheckHook
+    
+    * check val
+    
+    * add docstr
+    
+    * move hook to default runtime
+    
+    * add unitest
+    
+    * fix a typo
+    
+    * fix unitest
+    
+    * update docs
+    
+    * add check for CLASSES is None
+    
+    * fix doc
+
+commit e3e6ca76c6aca4b5c8f3fe43985e9eeb3f45051a
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Wed Jan 27 14:51:16 2021 +0800
+
+    Categorize tools (#4501)
+    
+    * Categorize tools
+    
+    * Update docs
+    
+    * Rename tools
+    
+    * Tool organization
+
+commit 10fc1726bfa576dc0886932b13852e5376f34af3
+Author: Chrisfsj2051 <34179691+Chrisfsj2051@users.noreply.github.com>
+Date:   Wed Jan 27 14:12:34 2021 +0800
+
+    Update README.md in TridentNet (#4533)
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    Co-authored-by: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+
+commit 43b8149cb4736bb9f6a37d14181af777153e781b
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Wed Jan 27 11:12:44 2021 +0800
+
+    Fix Missing documentation (#4525)
+    
+    * Update docs
+    
+    * Remove spaces
+    
+    * Update docs
+    
+    * Delete mirror link
+
+commit a2054167e34740d212c56b8083d42f06bba3ebd1
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Wed Jan 27 10:50:47 2021 +0800
+
+    Fcos num pos (#4370)
+    
+    * use reduce pos and denorm
+    
+    * add cfg
+    
+    * fix cfg
+    
+    * fix pt1.6
+    
+    * update link
+    
+    * clean
+    
+    * add legacy cfg
+    
+    * clean cfg
+    
+    * update readme
+    
+    * fix zero pos
+    
+    * update url
+
+commit 56b250f69e00eab5e2b28f591a1b04bb45f74bad
+Author: Luting Wang <2457348692@qq.com>
+Date:   Wed Jan 27 10:41:19 2021 +0800
+
+    Fix: mask resize (#4520)
+    
+    * fix: mask resize
+    
+    * test: mask resize
+    
+    * chore: fix lint
+
+commit 0fea302c8d9f2eac7f549e1cd75f407bce23dd4f
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Wed Jan 27 10:32:33 2021 +0800
+
+    Update benchmark filter (#4492)
+    
+    * Update benchmark filter
+    
+    * Add convert script
+    
+    * Delete some cfg
+    
+    * Add --run option
+
+commit 247785ceb31cabb0e3fd4c6ce17108d04f478ab8
+Author: RunningLeon <maningsheng@sensetime.com>
+Date:   Tue Jan 26 10:40:40 2021 +0800
+
+    add onnx simplify option to pytorch2onnx tool (#4468)
+    
+    * add onnx simplify option
+    
+    * resolve comments
+    
+    * add warnings
+
+commit 1b6895a9c5ac90b17bb3656c93dfe95c298fcdbe
+Author: Thang Vu <thangvubk@gmail.com>
+Date:   Tue Jan 26 11:34:29 2021 +0900
+
+    minor fix in htc tta when num det boxes is 0 (#4516)
+
+commit d1edc7838d099d9b42e94945d0d46c2542bd854a
+Author: ZhangShilong <61961338+jshilong@users.noreply.github.com>
+Date:   Tue Jan 26 10:33:38 2021 +0800
+
+    Reimplement Sparse R-CNN (#4219)
+    
+    * draft version train and test
+    
+    * remove get_bbox in sparse_head
+    
+    * refactor SparseRCNN model, align inference eval mAP with official repo
+    
+    * add focal_loss in hungarian_assigner.py
+    
+    * update hungarian_assigner.py
+    
+    * update detr config
+    
+    * update doc and codes
+    
+    * fix unitest
+    
+    * fix unitest
+    
+    * add embedding_rpn and traing code
+    
+    * modify code format
+    
+    * fix proposalist in simpletest
+    
+    * add focal loss traing
+    
+    * fix acc
+    
+    * fix reduce mean
+    
+    * add embedding rpn doc and add show initproposals
+    
+    * add docstr
+    
+    * fix backbone lr
+    
+    * fix typo and change detach_proposal_list to proposal_list
+    
+    * remove debug assert
+    
+    * add readme
+    
+    * add config for random crop when use 300 proposals
+    
+    * add aug for 300 proposals
+    
+    * add 300 proposals results and fix docstr
+    
+    * add 1x results
+    
+    * fix lint
+    
+    * fix unitest
+    
+    * fix docstr of embeddingrpn
+    
+    * fix according to the comments
+    
+    * fix get_bbox and a bug of dynamic conv
+    
+    * support cpu focal loss and fix docstr
+    
+    * fix docstr
+    
+    * fix unitest
+    
+    * fix bug of  init_weight
+    
+    * fix to device in assign
+    
+    * fix all commemt
+    
+    * fix test_config
+    
+    * remove dim 1 in forward
+    
+    * fix shape in comment
+    
+    * fix the case that train_cfg is None
+    
+    * fix shape of docstr
+    
+    * fix docstr
+    
+    * fix typo
+    
+    * simplify test
+    
+    * fix docstr
+    
+    * move train_cfg and test_cfg to model as
+    
+    * fix unitest
+    
+    * add link of ckpt and log
+    
+    * fix 1x results
+    
+    Co-authored-by: tianyuandu <tianyuandu@gmail.com>
+    Co-authored-by: fangkairen <fangkairen@sensetime.com>
+
+commit e1aa62377e74e389af05e611532a7fc2c56ef7b1
+Author: Xa9aX ツ <mishradiganta91@gmail.com>
+Date:   Mon Jan 25 18:05:50 2021 +0530
+
+    Update README.md (#4510)
+
+commit 60312064e4d7eb62470977bffff75c46f4080a22
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Sun Jan 24 07:33:59 2021 -0800
+
+    [Bug fix] Fix order of nms score_factor (#4473)
+    
+    * [Bug fix] Fix order of nms score_factor
+    
+    * add comment
+
+commit 3a9f5eff39735871c55643927f5506ab5af2127a
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Thu Jan 21 17:23:35 2021 +0800
+
+    Fix config tag (#4497)
+    
+    * Fix tag
+    
+    * Fix DCN tag
+    
+    * Update tag
+
+commit 4310fed1f576bfbe7770eb766ae467139fad4941
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Wed Jan 20 16:27:04 2021 +0800
+
+    [Feature] Support to visualize results based on prediction quality (#4441)
+    
+    * New Add ResultEvaluate
+    
+    * Update ResultVisualizer
+    
+    * Delete debug code
+    
+    * Add Loading related pipeline
+    
+    * 1.Move retrieve_loading_pipeline to dataset.util
+    2.Support display GT mask
+    3.Support display GT mask and det mask for visualize fn
+    
+    * Use gt_mask.to_ndarray()
+    
+    * Refactor analyze_results.py
+    
+    * Fix docs str
+    
+    * Logger is silent and add progressBar
+    
+    * Fix lint
+    
+    * Fix docs str and other comment
+    
+    * Fix docs str
+    
+    * Fix docs str
+    
+    * Fix docs str and add unit test for mask2ndarray
+
+commit acab309130f54b65dc1f34938a9dfe172dae8c39
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Wed Jan 20 16:25:43 2021 +0800
+
+    Update documentation about the deprecation of train_cfg/test_cfg (#4489)
+    
+    * Update documentation about the modification of train_cfg/test_cfg
+    
+    * Fix docs str
+    
+    * Add docs str
+    
+    * Add docs str
+
+commit e1dd6e28af69a1fd6477494111b0f73ad5b24298
+Author: Wang Xinjiang <wangxinjiang@sensetime.com>
+Date:   Tue Jan 19 15:58:01 2021 +0800
+
+    Support Concatenate dataset for testing (#4452)
+
+commit 16fffcc72e316dc11d510701c1c4ba5e3e2c81a5
+Author: Luting Wang <2457348692@qq.com>
+Date:   Tue Jan 19 15:38:30 2021 +0800
+
+    Fix: repr formats (#4474)
+
+commit 405c37766398608f81b8cae657914c0f15830286
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Mon Jan 18 01:26:50 2021 -0800
+
+    Move train_cfg/test_cfg into model (#4347)
+    
+    * Move train_cfg/test_cfg into model
+    
+    * fixed fsaf
+    
+    * fixed missing
+
+commit c3968eb35a37590a71b420f695021147cf1731b4
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Mon Jan 18 15:48:30 2021 +0800
+
+    Add more detailed docstring for reg_decoded_bbox in related bbox heads (#4467)
+    
+    * fix #4181, invalid link in readme for maskrcnn cityscapes
+    
+    * undo
+    
+    * add more detailed docstring for `reg_decoded_bbox` in related bbox heads
+    
+    * reformat
+    
+    * reformat
+
+commit 2d2e5c6f42b6f4b8ab4f68985b1fd7823e3be505
+Author: congee <35596075+congee524@users.noreply.github.com>
+Date:   Thu Jan 14 15:13:20 2021 +0800
+
+    Update stat to classify papers (#4449)
+    
+    * update stat to classify papers
+    
+    * modify tag of fp16
+
+commit c762d1e4cfc36a5fdde697f499c1e57746e2aa2e
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Wed Jan 13 20:42:06 2021 +0800
+
+    Fix window data won't destroy error when out_file is not None and show=False (#4442)
+
+commit 3a0e75b08141bf635e59de571dec190313d3ca60
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Wed Jan 13 11:23:16 2021 +0800
+
+    Support multi ious eval (#4398)
+    
+    * support multi ious eval
+    
+    * fix type
+
+commit 7c2b63575f90112f7c223dcd668de2f53bd00b72
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Wed Jan 13 11:15:29 2021 +0800
+
+    Deprecate ImageToTensor in image_demo (#4400)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+    
+    * Support DefaultFormatBundle in image_demo
+    
+    * Fix Multi-Scale error, ref： https://github.com/open-mmlab/mmsegmentation/pull/276
+    
+    * Rename variable name
+
+commit 308f0d768d08db821fdc1a30dc2fb57f439410e8
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Wed Jan 13 10:53:51 2021 +0800
+
+    Switch imshow_det_bboxes visualization backend from opencv to matplotlib (#4389)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+    
+    * Replace imshow_det_bboxes visualization backend
+    
+    * Add bbox_vis unit tests
+    
+    * Encapsulate color_val_matplotlib function
+    
+    * Add fun input parameters
+    
+    * Deprecate block
+    
+    * Add mask display in image
+    
+    * Putting the text inner left corner the bbox
+    
+    * Add a filling color for text regions.
+    
+    * Update color docs
+    
+    * Fix color docs
+    
+    * Update color docs and Fix default param
+
+commit 9b2c208d517534e249bd688f10764beadf5dd1a9
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Wed Jan 13 10:53:12 2021 +0800
+
+    Add more details in documentation of customizing dataset (#4430)
+    
+    * fix #4181, invalid link in readme for maskrcnn cityscapes
+    
+    * undo
+    
+    * Update customize_dataset.md
+    
+    * Update config modification setting
+    
+    * add doc for checking annotations of the new customized dataset
+    
+    * reformat
+    
+    * re-add docs for customized dataset
+    
+    * Update customize_dataset.md
+    
+    * use a cascase maskrcnn model as example to replace retinanet
+    
+    * reformat
+    
+    * reformat
+
+commit 900e0c8b8a417ac40a28dea80e07517f74435ff4
+Author: kazet <krzysztof.zajac2@gmail.com>
+Date:   Tue Jan 12 10:11:16 2021 +0100
+
+    Corrected the get_started.md example inference (#4429)
+    
+    It did not contain the checkpoint download step.
+
+commit 3e3ca6de4b723d684f66b272b22815259d99ca99
+Author: ZhangShilong <61961338+jshilong@users.noreply.github.com>
+Date:   Tue Jan 12 15:32:05 2021 +0800
+
+    Fix bug of PAA when training with background images (#4391)
+    
+    * fix issues 4021
+    
+    * fix issues 4372
+    
+    * clean comma
+    
+    * fix according to commet
+
+commit 7d9f57ed572b42da71d3764e7396bb046ca04663
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Tue Jan 12 10:28:40 2021 +0800
+
+    Fix TypeError in CornerNet inference (#4411)
+
+commit 1f04bc57f9578fe2c9c7a10e83d74141d1e67472
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Mon Jan 11 15:33:34 2021 +0800
+
+    Add batch inference docs about deprecate ImageToTensor (#4408)
+    
+    * Add batch inference docs
+    
+    * Update batch inference docs
+    
+    * Update docs
+
+commit 42f5b6c68698f5bf5de97b92120b00616f4fbabe
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Mon Jan 11 11:34:06 2021 +0800
+
+    Add Tag to config (#4426)
+
+commit 6cdb0a37df0b12d6011a0346bef36b08b2bfbda6
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Sun Jan 10 21:08:38 2021 +0800
+
+    Fix nms error of CornerNet when there is no prediction box (#4409)
+
+commit 4689a7357c5ff2cc8fb03cf1821563207c14a1d6
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Jan 10 20:58:21 2021 +0800
+
+    Add openmmlab projects (#4425)
+
+commit c8c8bfe793ad1305765318c7cc80cc878230051f
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Sat Jan 9 13:08:07 2021 +0800
+
+    Fix cpu device inference error of Cascade RPN (#4410)
+
+commit 6adc01ed7da2ffa96fd8b20c95047041c7196f37
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Sat Jan 9 12:52:46 2021 +0800
+
+    Add cpu compatibility info in documentation (#4405)
+    
+    * Add cpu compatibility info
+    
+    * Add table about not support CPU only model info
+    
+    * Update docs about not support CPU only model info
+
+commit b3c67d5e9c74b08eec46dddd3e2060c8f7307cd0
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Sat Jan 9 10:56:42 2021 +0800
+
+    Re-add tutorial for exist_data_new_model (#4396)
+    
+    * fix #4181, invalid link in readme for maskrcnn cityscapes
+    
+    * undo
+    
+    * re-organize tutorial for exist_data_new_model
+    
+    * reformat
+    
+    * reformat
+    
+    * remove unnecessary
+
+commit 4824dc0c0c0b3cb701376314db9c2672973c140f
+Author: congee <35596075+congee524@users.noreply.github.com>
+Date:   Wed Jan 6 20:15:32 2021 +0800
+
+    remove the papers should not be included and the models without any ckpt (#4393)
+
+commit 9cb5543f739a0ce20d869b0c26ef4137d80f91c8
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Sun Jan 3 21:18:49 2021 -0800
+
+    Remove custom_classes in LVIS (#4382)
+
+commit a21eb25535f31634cef332b09fc27d28956fb24b
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Mon Jan 4 10:40:37 2021 +0800
+
+    bump to v2.8.0 (#4387)
+
+commit 103a4dd8da46d3fa96cb6235f829fd3d0a06a002
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sun Jan 3 23:53:59 2021 +0800
+
+    Update tridentnet model links and logs (#4388)
+    
+    * update tridentnet model links
+    
+    * fix log postfix
+
+commit 506a5c686907a9e0c5b26706677a59fd2eb3c3e7
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sat Jan 2 12:58:33 2021 +0800
+
+    fix typo in doc (#4378)
+    
+    * fix typo in doc
+    
+    * update register
+    
+    * also resolve #4334
+
+commit 809f1b1d01004cb2e8c0ab16a3e93d3cb8f4cc66
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Tue Dec 29 19:20:14 2020 +0800
+
+    Update model url from aws to aliyun (#4349)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+    
+    * fix scale_factor is not same type as det_bboxes error
+    
+    * Update model url from aws to aliyun
+    
+    * Delete unnecessary changes
+    
+    * update url
+    
+    * add url link
+    
+    * Test program
+    
+    * Revert changes
+    
+    * Update MMDet tutorial url
+
+commit db7cf45d012c1efafad1dafd32a81f8114a0f3d1
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Tue Dec 29 14:21:57 2020 +0800
+
+    Fix show result in async_benchmark (#4367)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+    
+    * Fix show_result error
+
+commit bb75ddde8503b271c93889bbb48689298e744515
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Tue Dec 29 14:10:29 2020 +0800
+
+    Fix scale factor in MaskTestMixin (#4366)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+    
+    * Fix scale_factor is not same type as det_bboxes error
+
+commit f49540738e70f6c915bc5625d123cc0e11da87d1
+Author: Yosuke Shinya <42844407+shinya7y@users.noreply.github.com>
+Date:   Tue Dec 29 15:09:46 2020 +0900
+
+    Update ATSS for PyTorch 1.6+ (#4359)
+
+commit 4c70c81b14f6002edc87715eb1723c02178153c1
+Author: Yosuke Shinya <42844407+shinya7y@users.noreply.github.com>
+Date:   Mon Dec 28 23:34:14 2020 +0900
+
+    Fix script to install ruby (#4360)
+
+commit 4fb980e73e283ee55a6a8591e1e2057ed98cd1fa
+Author: Jiangmiao Pang <pangjiangmiao@gmail.com>
+Date:   Mon Dec 28 15:41:32 2020 +0800
+
+    fix nms (#4362)
+
+commit 482f60fe55c364e50e4fc4b50893a25d8cc261b0
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Thu Dec 24 13:59:26 2020 +0800
+
+    Delete mmdet.ops (#4325)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+    
+    * Delete mmdet.ops because it has been moved to mmcv
+
+commit 0c84b65b57b394c572d9320e6747f19256fd57be
+Author: kellenf <984677144@qq.com>
+Date:   Wed Dec 23 18:06:19 2020 +0800
+
+    Refactor hungarian assigner (#4259)
+    
+    * add focal_loss in hungarian_assigner.py
+    
+    * update hungarian_assigner.py
+    
+    * update detr config
+    
+    * update doc and codes
+    
+    * fix unitest
+    
+    * fix unitest
+    
+    * modify code format
+    
+    * update docstring
+    
+    * fix unitest
+    
+    * fix name
+    
+    * fix docformat
+    
+    * fix docformat
+    
+    * fix format
+    
+    Co-authored-by: fangkairen <fangkairen@sensetime.com>
+
+commit 23ded99365a82275e01ac377ec6178ab68a4941f
+Author: Thang Vu <thangvubk@gmail.com>
+Date:   Wed Dec 23 12:35:06 2020 +0900
+
+    Code for Cascade RPN - NeurIPS 2019 (#1900)
+    
+    * Code for Cascade RPN - NeurIPS 2019
+    
+    * using mmdet2 apis
+    
+    * update mmdet2 coords and minor fixes
+    
+    * fix format
+    
+    * update configs
+    
+    * fix simple test
+    
+    * update fast rcnn config
+    
+    * minor fixes
+    
+    * update docstring
+    
+    * update readme
+    
+    * update doc string
+    
+    * minor fixes
+    
+    * standard adaptive interface
+    
+    * update agrs docs
+    
+    Co-authored-by: Cao Yuhang <yhcao6@gmail.com>
+
+commit b951522ef85baa652d867c7df799ebbcf50bc436
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Wed Dec 23 11:20:57 2020 +0800
+
+    Fix empirical attention in  resnext backbone error (#4300)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+    
+    * Fix empirical attention with resNext backbone error(#4228)
+    
+    * Fix empirical attention in resnext backbone error
+    
+    * Add test ResNeXt Bottleneck forward with plugins
+
+commit 777adc3db55e04ed7cf2a4edcc0e0547daba0488
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Wed Dec 23 11:05:03 2020 +0800
+
+    Add link for FAQ in error-report (#4343)
+    
+    * add FAQ doc in error-report
+    
+    * resolve lint error
+
+commit f5277b50acf01ba73c8f52e7922ac4ddf07f4393
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Tue Dec 22 15:49:06 2020 +0800
+
+    Handle scipy import in DETR (#4339)
+    
+    * fix #4181, invalid link in readme for maskrcnn cityscapes
+    
+    * undo
+    
+    * get the last epoch from config
+    
+    * read eval metrics from the config key
+    
+    * read the latest log from multiple logs
+    
+    * use lower case of RESULTS_LUT
+    
+    * handle evaluation key with VOC dataset case
+    
+    * toy
+    
+    * move the position of scipy import
+    
+    * move the position of scipy import
+    
+    * fix invalid link of config in faster_rcnn
+
+commit 95a1dbdfab37eaba52325986257c5f0c8182505a
+Author: congee <35596075+congee524@users.noreply.github.com>
+Date:   Tue Dec 22 15:15:06 2020 +0800
+
+    modify the counting way of ckpts (#4317)
+    
+    * modify the count way of ckpts
+    
+    * remove config statistics
+
+commit 2b84662786c6bdedafb3becb19ad48d696146ae7
+Author: Wang Xinjiang <wangxinjiang@sensetime.com>
+Date:   Tue Dec 22 15:09:05 2020 +0800
+
+    Add config options docstring (#4326)
+    
+    * Add docstring for train.py/test.py/eval_metric.py
+    
+    * Add docstring in the document
+    
+    * Update docstring in the document
+    
+    * Update docstring
+
+commit 199594a641e7c3798120486426e28daeb316acf6
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Tue Dec 22 15:02:25 2020 +0800
+
+    Get the last epoch info from reading config in gather_model (#4338)
+    
+    * get the last epoch from config
+    
+    * read eval metrics from the config key
+    
+    * read the latest log from multiple logs
+    
+    * use lower case of RESULTS_LUT
+    
+    * handle evaluation key with VOC dataset case
+    
+    * toy
+
+commit 58d7bc85e38af7d5f737e7e3fba794f06d634d95
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Tue Dec 22 14:53:39 2020 +0800
+
+    Update pre-train model URL(faster rcnn and mask rcnn) (#4307)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+    
+    * Update pretrain model url
+    
+    * Fix pretrain model base url
+    
+    * Add specific class pre-trained models
+    
+    * Fix isort error
+    
+    * Update doc description
+    
+    * Update model url
+    
+    * Rename config
+    
+    * Rename config
+
+commit 6eb3aad0f91b6e57a5c0f1198f0737f3cc6b2296
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Sun Dec 20 22:54:58 2020 -0800
+
+    Fixed CI temporarily (#4332)
+    
+    * Fixed CI temporarily
+    
+    * fixed torchvison
+    
+    * fixed mmcv
+    
+    * delete 1.4.0+cpu
+
+commit 231387cd3f85a310f899cb5b4c948cd79787118d
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Tue Dec 15 22:46:59 2020 +0800
+
+    Fix img_norm in hrnet when using fcos detector (#4250)
+    
+    * fix #4232, fix img_norm in hrnet when using fcos detector
+    
+    * fix inherit in fcos_hrnetv2p_w32_gn-head_4x4_1x_coco.py
+    
+    * re-benchmark all hrnet-based fcos models using fixes img_norm, and achieving higher performance
+
+commit c551b598bb5c5ddea201b4a451341264d4a8f26b
+Author: RunningLeon <mnsheng@yeah.net>
+Date:   Tue Dec 15 15:15:57 2020 +0800
+
+    [doc]: add doc for pytorch2onnx (#4271)
+    
+    * [doc]: add doc for pytorch2onnx
+    
+    * [doc]: remove blank lines
+    
+    * resolve format of doc
+    
+    * refact doc for pytorch2onnx
+    
+    * add space
+    
+    * add to index.rst
+
+commit 2630f95a1cc1fef97bc82c076186e00fc5eef42a
+Author: Haian Huang(深度眸) <1286304229@qq.com>
+Date:   Tue Dec 15 11:34:31 2020 +0800
+
+    Add documentation for batch inference (#4296)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+    
+    * Add the documentation of batch inference and test
+    
+    * Add the documentation of options cfg and eval cfg
+    
+    * Modify the document description
+    
+    * Add doc description spacer
+    
+    * Update doc description
+
+commit d2fe9b4068ee63d29d236c2734005c05f3bed90e
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Tue Dec 15 10:28:51 2020 +0800
+
+    Avoid zero or too small value for beta in dynamic rcnn (#4303)
+    
+    * fix #4181, invalid link in readme for maskrcnn cityscapes
+    
+    * undo
+    
+    * fix #3950, avoid zero or too small value for new_beta
+    
+    * make eps as global var
+
+commit 4e921b2f40edd461f9219c1cf831b8b85b3f569a
+Author: Chrisfsj2051 <34179691+Chrisfsj2051@users.noreply.github.com>
+Date:   Tue Dec 15 10:26:47 2020 +0800
+
+    Support TridentNet (#3313)
+    
+    * go
+    
+    * go
+    
+    * go
+    
+    * go
+    
+    * remove unused
+    
+    * Update trident_faster_rcnn.py
+    
+    * fix nms for latest mmcv
+    
+    * Delete tridentnet_r101_caffe_1x_coco.py
+    
+    * fix ci
+    
+    * Update tridentnet_r50_caffe_1x_coco.py
+    
+    * add unit test
+    
+    * Update test_backbones.py
+    
+    * Update trident_roi_head.py
+    
+    * add mstrain config
+    
+    * update
+    
+    * Update trident_roi_head.py
+    
+    * Update trident_roi_head.py
+    
+    * update accoding to comment
+    
+    * Update trident_resnet.py
+    
+    * update
+    
+    * Update README.md
+    
+    * Update README.md
+    
+    * update
+    
+    * Update trident_resnet.py
+    
+    * Update tridentnet_r50_caffe_mstrain_1x_coco.py
+    
+    * Update mmdet/models/backbones/trident_resnet.py
+    
+    * Update resnet.py
+    
+    * reformat to pass CI
+    
+    Co-authored-by: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+
+commit c8a620db70caab280dbde532d37bdc15f1ad6733
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Mon Dec 14 18:25:29 2020 -0800
+
+    [Bug Fix] Fix modelzoo link of resnest (#4306)
+
+commit 43b1909221179395ebd36edd24540940274ab9c9
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Fri Dec 11 21:44:40 2020 +0800
+
+    Fix invalid ckpt and log in maskrcnn cityscapes (#4287)
+    
+    * fix #4181, invalid link in readme for maskrcnn cityscapes
+    
+    * undo
+    
+    * fix #4181, invalid link in readme for maskrcnn cityscapes
+    
+    * updating performance
+
+commit fb8ec070f40067c2222f5f15eefdb4d5b1f60bf7
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Fri Dec 11 16:47:13 2020 +0800
+
+    Fix docstring in WrapFieldsToLists (#4258)
+
+commit 9ab9aabfd9928b85e69b4ca0b6712a47de258d1e
+Author: Kaiyu Xie <siriusxky@gmail.com>
+Date:   Fri Dec 11 16:00:35 2020 +0800
+
+    Add missing mode "giou" in docstring (#4283)
+
+commit 79d350bd842faedde0c538df84bf239d23136f60
+Author: filaPro <danrukh@gmail.com>
+Date:   Fri Dec 11 10:58:57 2020 +0300
+
+    fix typo in batch_input_shape for detr (#4282)
+
+commit e02aa233c479ab55b97736e929236c4bc128806e
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Thu Dec 10 16:56:46 2020 +0800
+
+    Fix detr config for higher performance (#4272)
+    
+    * fix detr config for higher performance
+    
+    * fix unit tests
+
+commit 111e7b04928e447ebfe6e3cd3b2b0f9394fa9d56
+Author: LXXXXR <73265258+LXXXXR@users.noreply.github.com>
+Date:   Thu Dec 10 15:27:32 2020 +0800
+
+    Fix bug in distributed sampler (#4257)
+    
+    * fix bug in distributed sampler
+    
+    * add comments to explain the modification
+    
+    * revise according to comments
+
+commit f76e771bb48b8ccf89dbb9e4200a79d55750f6c8
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Thu Dec 10 13:17:29 2020 +0800
+
+    skip pat build in PR (#4270)
+
+commit 84a4570f290a6e6f943fe48956528a189c2abd04
+Author: RunningLeon <maningsheng@sensetime.com>
+Date:   Wed Dec 9 20:52:11 2020 +0800
+
+    [Fix]: reshape error of yolov3 in onnxruntime (#4262)
+
+commit 83a964386e6cbddcbe3c51fccfd8f0d49baaed1e
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Wed Dec 9 04:51:11 2020 -0800
+
+    Add markdown lint in pre-commit hook (#4255)
+    
+    * Add markdown lint in pre-commit hook
+    
+    * add markdown lint
+
+commit 2fa97488ddc019d840ce73394ba1bc5c1983618d
+Author: 深度眸 <1286304229@qq.com>
+Date:   Wed Dec 9 20:48:44 2020 +0800
+
+    FPN deprecated warning (#4264)
+    
+    * FPN deprecated warning
+    
+    * FPN deprecated warning
+
+commit 8d997db49b717f949ce63f82c4a90f93f67987b7
+Author: Bender <lexibender@ya.ru>
+Date:   Wed Dec 9 15:27:27 2020 +0300
+
+    fix markdown (#4265)
+
+commit bec3fc1a862cb9caebb40710bc2e52e586f741b4
+Author: Jiaqi Wang <wj017@ie.cuhk.edu.hk>
+Date:   Tue Dec 8 15:04:26 2020 +0800
+
+    Update Readme of SABL (#4244)
+    
+    * update Readme of SABL
+    
+    * update download link
+
+commit cde424b78b617a86d231121ebfba8e8e1cca36bd
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Tue Dec 8 15:03:53 2020 +0800
+
+    add detr performans and model link (#4252)
+
+commit 65b5de619b12a249d667bf8220a416b1626cc516
+Author: Yi Lu <21515006@zju.edu.cn>
+Date:   Tue Dec 8 14:45:42 2020 +0800
+
+    fix bug: PAFPN has no attribute extra_convs_on_inputs (#4235)
+    
+    * fix bug: PAFPN has no attribute extra_convs_on_inputs
+    
+    * add on_lateral
+    
+    * fix lint
+    
+    * fix lint error
+
+commit 5cfb70fe433e68ceb75d0a9c9553ad68c648e98d
+Author: Jiangmiao Pang <pangjiangmiao@gmail.com>
+Date:   Tue Dec 8 14:32:27 2020 +0800
+
+    Support returning indices of kept bboxes when using nms (#4251)
+    
+    * support return indices when using nms
+    
+    * support return indices when using nms
+    
+    * support return indices when using nms
+    
+    * support return indices when using nms
+
+commit ef392c659c9cefde8d7d4f66233b7a610321d68c
+Author: ace <51427581+ace7chan@users.noreply.github.com>
+Date:   Tue Dec 8 13:56:23 2020 +0800
+
+    Update gfl_head.py (#4210)
+    
+    * Update gfl_head.py
+    
+    There is a error in pytorch1.6 version when call reduce_mean in this head: input tensor is "int" format, can not call div_ direct. so, change it to float format.
+    
+    * Update gfl_head.py
+
+commit fb287b144eee70134cd6369f70deb43fdb8d499a
+Author: Nevermore <348797244@qq.com>
+Date:   Sun Dec 6 20:16:48 2020 +0800
+
+    Update cross_entropy_loss.py (#4224)
+    
+    * Update cross_entropy_loss.py
+    
+    Fix device type bug for weight copy.
+    
+    * Update cross_entropy_loss.py
+    
+    Fix bug: device type error when copying weight value.
+    
+    * Update cross_entropy_loss.py
+    
+    Fix bug: device type error when copying weight value.
+    
+    * Update cross_entropy_loss.py
+    
+    Fix bug: device type error when copying weight value.
+
+commit 3e902c3afc62693a71d672edab9b22e35f7d4776
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Mon Nov 30 23:26:01 2020 +0800
+
+    bump to v2.7.0 (#4205)
+    
+    * bump to v2.7.0
+    
+    * update dates
+    
+    * update version requirements
+    
+    * rephrase
+    
+    * resolve comments
+
+commit 159d9251640a161e270eba520a78403b9bc76370
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Mon Nov 30 23:24:13 2020 +0800
+
+    Add DETR readme.md (#4206)
+    
+    * Add DETR readme.md
+    
+    * update model zoo
+    
+    * fix typo
+
+commit 8179440ec5f75fe95484854af61ce6f6279f3bbc
+Author: qiaofl <qjliqiaofei@gmail.com>
+Date:   Sun Nov 29 19:56:48 2020 +0800
+
+    Supports for DETR in MMDetection. (#4201)
+    
+    * supports for DETR transformer
+    
+    * unit test with small data to avoid out of memory in CI
+    
+    * use batch size 1 for unit test to avoid out of memory
+    
+    * move transformer into utils folder and use more small data for unit test
+    
+    * reformat docstring
+    
+    * add more detailed docstring
+    
+    * reforamt
+    
+    * reformat and add build_transformer (#3866)
+    
+    * Supports for DETR position embedding (#3850)
+    
+    * supports for DETR position embedding
+    
+    * reformat docstring
+    
+    * reformat
+    
+    * move transformer_head folder into utils
+    
+    * remove unnecessary comments
+    
+    * reformat
+    
+    * reformat
+    
+    * reformat docstring
+    
+    * reformat
+    
+    * add optional for default parameters
+    
+    * add comments for unit test
+    
+    * avoid inplace in MultiheadAttention and add optional add_residual for FFN
+    
+    * Supports for DETR inference (#3941)
+    
+    * fix forward in FFN
+    
+    * supports detr inference mode with batchsize 1
+    
+    * add docstring for DETR in detr.py
+    
+    * reformat and add doctest for TransformerHead
+    
+    * reformat, and move the mask construction from simple_test in detr.py to the forward process of transformer_head
+    
+    * rename detr_r50_1x_coco as detr_r50_8x4_1x_coco in config
+    
+    * reformat
+    
+    * mask input_img_shape in img_meta as a general modification of base_detector forward_test
+    
+    * reformat
+    
+    * Supports for DETR hungarian matcher. (#3929)
+    
+    * Add doc of modify loss (#3777)
+    
+    * add doc of modify loss
+    
+    * minor fix
+    
+    * change name
+    
+    * improve the function of simple_test_bboxes (#3853)
+    
+    * update
+    
+    * fix lint error
+    
+    * add bbox_pred_split in sabl_head
+    
+    * fix lint error
+    
+    * fix yapf
+    
+    * fix build error
+    
+    * fix yapf
+    
+    * Clean background_labels in the dense heads (#3221)
+    
+    * Clean background_labels in the dense heads
+    
+    * clean format
+    
+    * Reformat
+    
+    * Fix CI bug
+    
+    * fix fsaf and the comments
+    
+    * fix newly added heads
+    
+    * fix yolact
+    
+    * complete comments
+    
+    * fix rpn transforming bug in two stage networks (#3754)
+    
+    * fix rpn transforming bug in two_stage
+    
+    * [Refactor] refactor get_subset_by_classes in dataloader for training with empty-GT images (#3695)
+    
+    * Add regression test and test data
+    
+    * Add fix for empty gt images
+    
+    * Trigger CI build
+    
+    * refactor get_subset_by_classes
+    
+    * reformat and fix docstring
+    
+    * [refactor]: move get_subset_by_classes to _filter_imgs
+    
+    * make img_ids consistent
+    
+    * resolve comments
+    
+    * simplify logics
+    
+    * add warning
+    
+    * add warning
+    
+    * add warning
+    
+    Co-authored-by: mmeendez8 <miguelmndez@gmail.com>
+    
+    * Fix nonzero in NMS for PyTorch 1.6.0 (#3867)
+    
+    * Support TTA of ATSS, FCOS, YOLOv3 (#3844)
+    
+    * Support TTA of ATSS, FCOS, YOLOv3
+    
+    * Add comment
+    
+    * [Docs] Fix typo in docs/tutorials/new_dataset.md (#3876)
+    
+    * [Docs] Remove duplicate content in docs/config.md (#3875)
+    
+    * [Enhance]: Convert mask to bool before using it as img's index for robustness and speedup (#3870)
+    
+    * Convert mask to bool before using it as img's index
+    
+    * lint
+    
+    * Rewrite code in more concise way
+    
+    * Fix typo in bbox_flip (#3886)
+    
+    * fix the API change bug of PAA (#3883)
+    
+    * fix cv2 import error of ligGL.so.1 (#3891)
+    
+    * [enhance]: Improve documentation of modules and dataset customization (#3821)
+    
+    * update tutorials for changing training settings
+    
+    * update
+    
+    * Update details of hook
+    
+    * resolve comments
+    
+    * reformat
+    
+    * Update module documentations
+    
+    * add notes for classes specification
+    
+    * support to use pytorch 1.6 in docker (#3905)
+    
+    * support to use pytorch 1.6 in docker
+    
+    * update mmcv requirement
+    
+    * update docs
+    
+    * Add missing notes in data customization (#3906)
+    
+    * [Fix]: fix mask rcnn training stuck problem when there is no positive rois (#3713)
+    
+    * Fix mask rcnn stuck problem when there is no positive rois
+    
+    * support non pos inference in cascade methods, link CU-49tawu
+    
+    * print mmcv version in CI
+    
+    * use mmcv repo to check wrappers
+    
+    * change cpu build
+    
+    * upgrade mmcv requirements and change ci back
+    
+    * use pre-built whl in CI
+    
+    * Bump to v2.5.0 (#3879)
+    
+    * bump to v2.5.0
+    
+    * update PR
+    
+    * resolve comments
+    
+    * clean unnecessary modification
+    
+    * update bc breaking
+    
+    * rephrase bc-breaking
+    
+    * rephrase
+    
+    * Added `generate_inputs_and_wrap_model` function for pytorch2onnx (#3857)
+    
+    * added `generate_inputs_and_wrap_model` function for pytorch2onnx
+    
+    * undo debugging changes
+    
+    * added model.cpu().eval()
+    
+    * refactored onnx
+    
+    * fix verify
+    
+    * move `generate_inputs_and_wrap_model` into mmdet.core.export
+    
+    * use `generate_inputs_and_wrap_model` in tools/pytorch2onnx.py
+    
+    * typo (#3917)
+    
+    * Edit mmdet.core.export docstring (#3912)
+    
+    * edit mmdet.core.export docstring
+    
+    * update doctest
+    
+    * fix small bugs
+    
+    * supports for HungarianMatchAssigner, add bbox_cxcywh_to_xyxy and bbox_xyxy_to_cxcywh for bbox transform
+    
+    * format box-wise related giou calculating as a function and implement it in iou2d_calculater.py
+    
+    * supports for BboxGIoU2D and re-implements giou_loss using bbox_gious
+    
+    * remove unnecessary
+    
+    * reformat
+    
+    * reformat docstring
+    
+    * reformat
+    
+    * rename
+    
+    * supports for giou calculating in BboxOverlaps2D, and re-implements giou_loss using bbox_overlaps
+    
+    * fix sabl validating bug in cascade_rcnn (#3913)
+    
+    * reformat
+    
+    * move giou related unit test from test_losses.py to test_iou2d_calculator.py
+    
+    * reformat
+    
+    * Avoid division by zero in PAA head when num_pos=0
+    
+    * [Fix]: Avoid division by zero in PAA head when num_pos=0 (#3938)
+    
+    * explicitly add mode in giou_loss
+    
+    * Add supports for giou calculation in BboxOverlaps2D, and re-implements giou_loss using bbox_overlaps (#3936)
+    
+    * supports for BboxGIoU2D and re-implements giou_loss using bbox_gious
+    
+    * remove unnecessary
+    
+    * reformat
+    
+    * reformat docstring
+    
+    * reformat
+    
+    * rename
+    
+    * supports for giou calculating in BboxOverlaps2D, and re-implements giou_loss using bbox_overlaps
+    
+    * reformat
+    
+    * move giou related unit test from test_losses.py to test_iou2d_calculator.py
+    
+    * reformat
+    
+    * Avoid division by zero in PAA head when num_pos=0
+    
+    * explicitly add mode in giou_loss
+    
+    * Add supports for giou calculation in BboxOverlaps2D, and add iou_calculator in hungarian_assigner
+    
+    * rename hungarian_match_assigner as hungarian_assigner
+    
+    * fix init
+    
+    * reformat docstring
+    
+    * Avoid division by zero in PAA head when num_pos=0
+    
+    * fix cpu (#3948)
+    
+    * add mode for iou_calculator and make giou cost as a default case
+    
+    * make mode as a param in iou_calculator
+    
+    * reformat docsting
+    
+    * make iou_mode outside of iou_calculator
+    
+    Co-authored-by: Cao Yuhang <yhcao6@gmail.com>
+    Co-authored-by: yuzhj <31239926+yuzhj@users.noreply.github.com>
+    Co-authored-by: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+    Co-authored-by: mmeendez8 <miguelmndez@gmail.com>
+    Co-authored-by: Yosuke Shinya <42844407+shinya7y@users.noreply.github.com>
+    Co-authored-by: LabMemNo003 <LabMemNo003@gmail.com>
+    Co-authored-by: Ye Liu <yeliudev@outlook.com>
+    Co-authored-by: aboettcher <aboettcher@users.noreply.github.com>
+    Co-authored-by: Ryan Li <xlide@connect.ust.hk>
+    Co-authored-by: Jiangmiao Pang <pangjiangmiao@gmail.com>
+    
+    * Re-implements RandomCrop to support different crop_type (#4093)
+    
+    * re-implements RandomCrop to support different crop_type
+    
+    * add assertion for relative related crop_type
+    
+    * reformat, and add image shape assertion for unit test
+    
+    * reformat
+    
+    * Supports for DETR training mode in process. (#3963)
+    
+    * add input_img_shape in img_meta, and supports training mode toy
+    
+    * toy commit
+    
+    * toy commit
+    
+    * re-organize and support for detr training mode
+    
+    * add unit test for detr training, testing, and transformer_head
+    
+    * add more unit test for transformer
+    
+    * reformat
+    
+    * remove unnecessary
+    
+    * use small transformer model for unit test
+    
+    * reformat docstring
+    
+    * reformat
+    
+    * reformat
+    
+    * Supports DETR e150 config (#4197)
+    
+    * rename e300 config as e150 config
+    
+    * reformat
+    
+    * add comments on override option in Resize
+    
+    * add comments on override option in Resize
+    
+    * position embeddingto positional encoding
+    
+    * fix unit tests
+    
+    * fix registry name bug
+    
+    * rename file
+    
+    * remove unnecessary
+    
+    Co-authored-by: ZwwWayne <wayne.zw@outlook.com>
+    Co-authored-by: Cao Yuhang <yhcao6@gmail.com>
+    Co-authored-by: yuzhj <31239926+yuzhj@users.noreply.github.com>
+    Co-authored-by: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+    Co-authored-by: mmeendez8 <miguelmndez@gmail.com>
+    Co-authored-by: Yosuke Shinya <42844407+shinya7y@users.noreply.github.com>
+    Co-authored-by: LabMemNo003 <LabMemNo003@gmail.com>
+    Co-authored-by: Ye Liu <yeliudev@outlook.com>
+    Co-authored-by: aboettcher <aboettcher@users.noreply.github.com>
+    Co-authored-by: Ryan Li <xlide@connect.ust.hk>
+    Co-authored-by: Jiangmiao Pang <pangjiangmiao@gmail.com>
+
+commit c472f867a7c58f5086afa3152aa92e5b77f9e573
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sat Nov 28 23:38:31 2020 +0800
+
+    Ensure dcn offset have similar type as feats (#4198)
+
+commit 2547df14e91b8a91806cfbcf7b3124d470095cce
+Author: LXXXXR <73265258+LXXXXR@users.noreply.github.com>
+Date:   Fri Nov 27 15:05:27 2020 +0800
+
+    [Enhance]: Add cfg link in README.md (#4190)
+
+commit 1989b69c918ac63488918207e5ca02ffb81a1b53
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Thu Nov 26 01:59:22 2020 -0800
+
+    [docs] Add loss convention (#3818)
+    
+    * [docs] Add loss convention
+    
+    * add example
+    
+    * fixed backticks
+    
+    * reduce code
+    
+    * fixed lint
+
+commit 105c352f5438ef466db2a4892ec757c5f521344f
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Thu Nov 26 01:05:18 2020 -0800
+
+    [Feature] Best ckpt hook (#3773)
+    
+    * [Feature] Add best ckp hook
+    
+    * update docstring
+    
+    * Fixed evaluate
+    
+    * make key_indicator default None
+    
+    * add test, and OrderDict
+    
+    * add test fot best checkpoint hook
+    
+    * delete comments
+    
+    * add more info
+    
+    * fixed eval metric
+    
+    * remove key_indicator
+    
+    * update doc
+    
+    * fixed test.py/eval_metric.py
+    
+    * fixed dist
+    
+    * compatible with mmcv
+    
+    * more test
+    
+    * revert voc0712
+
+commit 2e2a3280bfba965f9ebf2b0880874907b56266e4
+Author: Ryan Li <xlide@connect.ust.hk>
+Date:   Wed Nov 25 21:28:41 2020 +0800
+
+    [DOC] Edit FAQ to add 30 series installation problem (#4176)
+    
+    * Edit faq to add 30 series installation problem
+    
+    * Update as per comment
+
+commit 50cc0fa19923cbebdc0d4920b6160e9f9c76e241
+Author: LXXXXR <73265258+LXXXXR@users.noreply.github.com>
+Date:   Wed Nov 25 17:03:23 2020 +0800
+
+    Add options to override used configs in inference.py (#4175)
+    
+    * add options to override used configs in inference.py
+    
+    * fix typo
+
+commit 4b03ffe3a9d8518884104a63b97f620f929a5cf8
+Author: wang shiguang <515740295@qq.com>
+Date:   Wed Nov 25 10:01:29 2020 +0800
+
+    update parrots ci (#4161)
+    
+    * update parrots ci
+    
+    * fix mmcv install
+    
+    * update ci
+    
+    * Update build.yml
+
+commit 63772c5cb80b0124b6722f705759ed0e49bb679c
+Author: RunningLeon <maningsheng@sensetime.com>
+Date:   Tue Nov 24 19:25:58 2020 +0800
+
+    [Enhance]: Support some detection models exportable to onnx (#4087)
+    
+    * Modify to export to ONNX
+    
+    * Modify to support new_tensor, new_full when exporting to onnx
+    
+    * Replace grid_sample with resize for exporting to onnx
+    
+    * Add verify of mask result
+    
+    * Verify all outputs between pytorch and onnx
+    
+    * Avoid runtime split error for mask-rcnn
+    
+    * Remove unnecessary change in bbox2roi
+
+commit 0293aedb67e4a10510e4ea14684b8d13f62901bc
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Tue Nov 24 01:12:14 2020 -0800
+
+    [Feature]: Support ResNeSt backbone (#2959)
+    
+    * add stem_channels opt
+    
+    * add ResNeSt
+    
+    * fixed config
+    
+    * fixed cascade config
+    
+    * add precise BN
+    
+    * add precise bn in test
+    
+    * format precise bn
+    
+    * update precise bn interval
+    
+    * fixed eval config bug
+    
+    * fixed precise interval
+    
+    * change to return_loss=False
+    
+    * add naive syncbn
+    
+    * add naive syncbn
+    
+    * rmo precise bn
+    
+    * add range ms
+    
+    * change to MMSyncBN
+    
+    * add naive
+    
+    * fixed loader
+    
+    * reset test
+    
+    * fixed faster config bug
+    
+    * add no norm decay
+    
+    * add baseline no norm decay
+    
+    * set fronzen_stages=-1
+    
+    * move import
+    
+    * restore to official setting
+    
+    * set to MMSyncBN
+    
+    * update s101 pretrain
+    
+    * update docs
+    
+    * fixed config
+    
+    * add backbone+head
+    
+    * change fpn init
+    
+    * add s101
+    
+    * add s101
+    
+    * revert fpn init
+    
+    * add modelzoo, docstring, test
+    
+    * fixed test
+    
+    * fixed test
+    
+    * add missing models
+    
+    * update docstring
+    
+    * add comment
+    
+    * fixed markdownlint
+
+commit 61e54ed71cfbcdd0309a2d7fb5a4784732be692b
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Mon Nov 23 19:52:58 2020 +0800
+
+    fix gpu_id with distributed training mode (#4163)
+
+commit d7f419852aadff97ca7d92232cc2f1065390ebe1
+Author: Renjith Baby <renjithbaby23@users.noreply.github.com>
+Date:   Sat Nov 21 09:13:37 2020 +0530
+
+    [Enhance] Update get_started.md (#4145)
+    
+    Added instructions related to the docker version to ensure that user is not running into issues mentioned here https://github.com/NVIDIA/nvidia-docker/issues/1165
+
+commit 141b68faf8bf032ba3ea6cdc1ca57f888c03e320
+Author: Jintao Lin <528557675@qq.com>
+Date:   Sat Nov 21 11:42:30 2020 +0800
+
+    [Docs] Add model statistics and polish some titles in configs README (#4140)
+    
+    * add model stastics
+    
+    * add modelzoo Statistics
+    
+    * fix some title in READMD
+    
+    * chmod
+
+commit 21fef03521eae67e4e0e52e63dd1d42887271676
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sat Nov 21 11:34:59 2020 +0800
+
+    Fix parrots compatibility issues (#4143)
+    
+    * fix parrots compatibility
+    
+    * add comments
+
+commit 1cbe18b6bceccc68c33738ee99bb17af7a10e201
+Author: Qi He <978632333@qq.com>
+Date:   Thu Nov 19 18:59:46 2020 +0800
+
+    Support Albumentations with version higher than 0.5 (#4032)
+    
+    * masks from (n,h,w) to [(h,w),...,(h,w)]
+    
+    * Update transforms.py
+    
+    * Update transforms.py
+    
+    * forward compatible
+    
+    * upgrade yapf
+    
+    * minon clean
+    
+    Co-authored-by: Cao Yuhang <yhcao6@gmail.com>
+
+commit caa4a4ed7d9ac99d816ab631bc573a9c3f752845
+Author: Jiangmiao Pang <pangjiangmiao@gmail.com>
+Date:   Thu Nov 19 16:33:54 2020 +0800
+
+    Support unclip border bbox regression (#4076)
+    
+    * update
+    
+    * clip border
+    
+    * clip border
+    
+    * clip
+    
+    * update
+    
+    * update
+    
+    * update
+    
+    * update
+
+commit f382ec859c89b0880860b78a0762a4f3aade0772
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Wed Nov 18 17:08:12 2020 +0800
+
+    Clamp neg probability in freeanchor (#4082)
+    
+    * clamp neg probability in freeanchor
+    
+    * refactor
+    
+    * resolve comments
+
+commit 38123777cabc0f1ada8ae7a559ef24ef368ae4e8
+Author: Guanghui Ren(任广辉) <sundrops.ren@gmail.com>
+Date:   Wed Nov 18 13:35:52 2020 +0800
+
+    Speedup expand when meets large image (#4089)
+    
+    * Speedup expand when meets large image
+    
+    * fix lint error
+    
+    * Update transforms.py
+
+commit 01f1d42d4de476d67eeac87afc3a3da53f62d4b9
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Nov 17 18:45:45 2020 +0800
+
+    Fix pytorch 1.7 imcompatibility issues (#4103)
+    
+    * fix pytorch 1.7 imcompatibility issues
+    
+    * remove useless files
+
+commit 048c41a8d00f57ed33affd0ea73c8bc6de76e98a
+Author: RunningLeon <maningsheng@sensetime.com>
+Date:   Sat Nov 14 15:52:35 2020 +0800
+
+    [Enhance]: Better support yolov3 pytorch2onnx (#4083)
+    
+    * Make yoloV3 raw export work with TensorRT
+    
+    * Change bool indexing to integer indexing
+    
+    * Add comments to changes
+    
+    * Add comments to changes
+    
+    Co-authored-by: Daniel Suess <daniel@dsuess.me>
+
+commit 885b86bae849529735129c0945d729b91ff3b79a
+Author: Wang Xinjiang <wangxinjiang@sensetime.com>
+Date:   Sat Nov 14 00:19:24 2020 +0800
+
+    add tpfp func in evaluating AP (#4069)
+    
+    * add tpfp func
+    
+    * fix docstring
+    
+    * Resolve comments
+
+commit ff657a3cc792cf14e284be0cb5b08799ae3e9ed1
+Author: Shijie <821898965@qq.com>
+Date:   Sat Nov 14 00:10:35 2020 +0800
+
+    fix one doc typo (#4105)
+
+commit 72a9146e199b2b470a5bc87ad820c76991f4bba5
+Author: mrbulb <30287341+mrbulb@users.noreply.github.com>
+Date:   Thu Nov 12 13:44:04 2020 +0800
+
+    [fix] fix num_classes bug in faster rcnn config (#4088)
+    
+    `num_classes` in model should be the same as the number of dataset class
+
+commit 7ad44cd6f9da7cc42e9afd93f1872570ef6007b6
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Wed Nov 11 10:23:50 2020 +0800
+
+    Update trouble shooting page to resolve segmentation fault (#4055)
+    
+    * update trouble shooting page to resolve segmentation fault
+    
+    * resolve comments
+
+commit f1f89801bc49c06af598ceb9c8c45602d781ab03
+Author: Guanghui Ren(任广辉) <sundrops.ren@gmail.com>
+Date:   Wed Nov 11 09:33:20 2020 +0800
+
+    Support fp16 using other backbones instead of sdd_vgg (#4081)
+
+commit 7ec0f03dc6c5e704bfd6d01f3814577bf5aba49e
+Author: Baris Can Cam <bariscancam@gmail.com>
+Date:   Tue Nov 10 10:20:47 2020 +0300
+
+    Update aLRP-Loss in project page (#4078)
+
+commit d3cf38d91c454b1a6881e8c36c1e4a66dc5521b8
+Author: GT9505 <gongtao950513@gmail.com>
+Date:   Thu Nov 5 15:49:33 2020 +0800
+
+    add Faster rcnn c5 (#4043)
+    
+    * add faster rcnn C5
+    
+    * add trained faster rcnn C5 model url
+    
+    * fix typos
+    
+    * update based on 1-st comments
+    
+    * update unittest for ChannelMapper
+    
+    * small changes of ChannelMapper's docstring
+    
+    * small changes of ChannelMapper's docstring
+
+commit af7deffe69d1e3c16f52471765b947991b80964f
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Wed Nov 4 23:48:47 2020 -0800
+
+    [Enhancement] Refactor Q&A (#4045)
+    
+    * [Enhancement] Refactor Q&A
+    
+    * fix typo
+    
+    * fix cudatoolkit
+    
+    * rename
+    
+    * resovle cmts
+    
+    * reanme
+    
+    * fixed yaml
+    
+    * add link
+
+commit 5853fa4aa4e0a3769763eb213070d86a7d40210d
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Wed Nov 4 10:47:13 2020 +0800
+
+    [Refactor]: Clean duplicated reduce mean function (#4056)
+
+commit e761f9cae796f9d09d1d70fbb1fa16072c4ce909
+Author: wdmwhh <38210459+wdmwhh@users.noreply.github.com>
+Date:   Tue Nov 3 12:00:28 2020 +0800
+
+    Add f-string (#4054)
+
+commit 490b6ee8b4995a7592aba64b954b0f52849b515a
+Author: miaosakurai <867616074@qq.com>
+Date:   Sun Nov 1 22:05:58 2020 +0800
+
+    fix errors in docs/2_new_data_model.md (#4041)
+
+commit bd3306f5575908fd90a783bcb1bfc8c55d361423
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sun Nov 1 14:29:00 2020 +0800
+
+    Bump to v2.6.0 (#4038)
+    
+    * bump to v2.6.0
+    
+    * update version requirements
+    
+    * Add README.md reference
+    
+    * Fix README.md
+
+commit c55bc44dcba7e18bccfdba8e70d8ef4cb37b38c1
+Merge: ac13907 2bc9142
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sun Nov 1 12:56:56 2020 +0800
+
+    Merge pull request #4031 from open-mmlab/refactor_doc
+    
+    Refactor documentation
+
+commit 2bc914202fe45484dd0e4f4e86cb2a919392a820
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Nov 1 00:41:54 2020 +0800
+
+    fix errors in docs
+
+commit d6b10a1384ec70a346733911795b7a3c331cb21a
+Author: AemikaChow <aem@AemikaChowdeMacBook-Pro.local>
+Date:   Sat Oct 31 23:26:37 2020 +0800
+
+    minor revision
+
+commit ac13907054bf5371dd9580c862b03e08b2a10102
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Sat Oct 31 06:13:48 2020 -0700
+
+    [Bug fix]Add mkdir in dist_test (#4034)
+
+commit 99df34913d9e1ef47b2e7cfde2d7c31aceb8f73d
+Author: AemikaChow <aem@AemikaChowdeMacBook-Pro.local>
+Date:   Fri Oct 30 14:54:46 2020 +0800
+
+    re-organized the doc
+
+commit b515fb9d41e65655634cbca9f6c165c456ccc809
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Fri Oct 30 11:32:59 2020 +0800
+
+    [Enhance]: Update rpn upgrade scripts for v2.5.0 compatibility (#3986)
+    
+    * add rpn upgrade scripts for v2.5.0 compatibility
+    
+    * rephrase docs
+
+commit ac20ffef38d6fb244b0e3fd85f20213103732a23
+Author: David de la Iglesia Castro <daviddelaiglesiacastro@gmail.com>
+Date:   Thu Oct 29 08:37:32 2020 +0100
+
+    Fix show-dir (#4025)
+
+commit b40d549701c2349770ef261188455ec4b64e0733
+Author: hyz-xmaster <46875969+hyz-xmaster@users.noreply.github.com>
+Date:   Thu Oct 29 15:04:17 2020 +1000
+
+    fix multiscale_mode issue and update (#4024)
+
+commit cc8aa5fe0fe9802127e2a8b48617d436ab2947d8
+Merge: d386351 53b6901
+Author: AemikaChow <aemika.zou@connect.polyu.hk>
+Date:   Thu Oct 29 12:38:45 2020 +0800
+
+    Merge pull request #4023 from RyanXLi/visdoc
+    
+    [Doc] Refactor doc on `tools/`
+
+commit 53b6901d8ec9e4a922f53ae4e8f700754f7d0a6a
+Author: RyanXLi <xlide@connect.ust.hk>
+Date:   Thu Oct 29 11:57:39 2020 +0800
+
+    add docs
+
+commit abb9a8751a5273780160a7cb8121e6146e2fc7ee
+Author: hyz-xmaster <46875969+hyz-xmaster@users.noreply.github.com>
+Date:   Thu Oct 29 13:17:22 2020 +1000
+
+    VarifocalNet (#3666)
+    
+    * add varifocal loss, vfnet head and config file
+    
+    * fix nonzero() and register_module bug
+    
+    * add more configs and README.md
+    
+    * enlarge image in README.md
+    
+    * add arxiv link
+    
+    * add paper arxiv link
+    
+    * attempt to fix checks error - res2net
+    
+    * update readme
+    
+    * update according to comments
+    
+    * revert res2net.py
+    
+    * compact the VFNetHead
+    
+    * adapt for official TTA
+    
+    * add unit tests and refine vfnet_head
+    
+    * update url
+    
+    * update readme
+    
+    * add minor comments
+    
+    * update supported models
+    
+    * remove VFNet.png
+    
+    Co-authored-by: Cao Yuhang <yhcao6@gmail.com>
+
+commit d1cedb72d08467ad876a2c02c51e40f960ee9bfc
+Author: David de la Iglesia Castro <daviddelaiglesiacastro@gmail.com>
+Date:   Wed Oct 28 12:56:53 2020 +0100
+
+    Use mmcv tensor2imgs (#4010)
+
+commit d386351b65c28bbfcc6b2f24d76880cd7ef47368
+Merge: fa77c93 056a345
+Author: AemikaChow <aemika.zou@connect.polyu.hk>
+Date:   Wed Oct 28 19:25:54 2020 +0800
+
+    Merge pull request #4006 from v-qjqs/doc
+    
+    Add docs
+
+commit 64ed6d17aef02f10880a8ea08055fcc81f235c97
+Author: RyanXLi <xlide@connect.ust.hk>
+Date:   Wed Oct 28 18:30:26 2020 +0800
+
+    Write doc with todos
+
+commit d3038923947b8214a804a3009b5e749ea0bdca03
+Author: David de la Iglesia Castro <daviddelaiglesiacastro@gmail.com>
+Date:   Wed Oct 28 08:38:29 2020 +0100
+
+    Update test robustness (#4000)
+    
+    * Use mmdet.apis
+    
+    * Add show_dir and show_score_thr args
+    
+    * pre-commit
+    
+    * Save each corruption in separate folder
+    
+    * Save each corruption in separate folder
+
+commit 0bb9b96f1bbb4d715744b37b75b2905279078be5
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Tue Oct 27 21:00:36 2020 -0700
+
+    fixed multi-node dist test (#4017)
+
+commit 056a345a792b2753ddfdb4f1c1448f38564389c6
+Author: v-qjqs <qjliqiaofei@gmail.com>
+Date:   Tue Oct 27 13:52:58 2020 +0800
+
+    update
+
+commit 3fc54e5cd75c0ce97edc9527cecab678babe6e12
+Author: v-qjqs <qjliqiaofei@gmail.com>
+Date:   Tue Oct 27 13:50:01 2020 +0800
+
+    update url
+
+commit 966a07e7c40e35877d581006a58b5d0b6128a042
+Author: v-qjqs <qjliqiaofei@gmail.com>
+Date:   Tue Oct 27 13:39:48 2020 +0800
+
+    add doc for exist_data_new_model tutorial
+
+commit eb7bfbc62658b60e5be8bb00a40d5e3018971f78
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Mon Oct 26 11:48:22 2020 +0800
+
+    Update trouble shooting (#3994)
+
+commit 95c05decbe3f9b40de7d312840d7bff261a5f890
+Author: Wang Xinjiang <swanxinjiang@gmail.com>
+Date:   Sun Oct 25 09:26:26 2020 +0800
+
+    Paa improve (#3985)
+    
+    * speed up and improve stabe paa
+    
+    * fix yapf
+    
+    * change default value of covariance_type
+    
+    * change precisions_init
+    
+    * Add tied covariance type
+    
+    * Change default covariance_type
+    
+    Co-authored-by: d.rybalchenko <d.rybalchenko@visionlabs.ru>
+    Co-authored-by: rydenisbak <rydenisbak@mail.ru>
+
+commit b2259605870f3430b834e6ca53c337bc693f0262
+Author: Jiaqi Wang <wj017@ie.cuhk.edu.hk>
+Date:   Fri Oct 23 15:51:35 2020 +0800
+
+    GA-RetinaNet r50 model url update (#3983)
+    
+    * ga ret r50 model url update
+    
+    * update url
+
+commit 5d592154cca589c5113e8aadc8798bbc73630d98
+Author: RunningLeon <maningsheng@sensetime.com>
+Date:   Thu Oct 22 14:24:16 2020 +0800
+
+    [Feature]: Support batch_size > 1 in validation (#3966)
+
+commit fa77c93925bc5dd6ce6100cd1a35521e84a1688d
+Merge: baf045a 75ab901
+Author: AemikaChow <aemika.zou@connect.polyu.hk>
+Date:   Wed Oct 21 16:43:51 2020 +0800
+
+    Merge pull request #3970 from ZwwWayne/tutorial-refactor-data-train
+    
+    Tutorial refactor data train
+
+commit 75ab9012829981469137c17a13d5b32b11ca71d9
+Author: ZwwWayne <wayne.zw@outlook.com>
+Date:   Tue Oct 20 20:56:13 2020 +0800
+
+    Add tutorials 2
+
+commit 9caa197f3d518659b7218683b976b02986c78dc6
+Author: RunningLeon <mnsheng@yeah.net>
+Date:   Mon Oct 19 21:37:17 2020 +0800
+
+    [enhance]: Use RoIAlign implemented in MMCV for inference in CPU mode (#3930)
+    
+    * [enhance]: RoIAlign in mmcv is supported with aligned=False in CPU mode
+    
+    * [Fix]: RoIPool doesn't have `aligned` attribute
+    
+    * [enhance]: CPU inference with RoIPool is not supported currently (#3930)
+
+commit 29e0c5e949bdf5b499436039345edfb74c8833c7
+Author: Butui Hu <hot123tea123@gmail.com>
+Date:   Mon Oct 19 21:33:06 2020 +0800
+
+    [Fix] update code in docs and fix broken urls (#3947)
+
+commit dacb2fd762da5b1e7978d39d0bba2c6a454a3683
+Merge: 5d07dda baf045a
+Author: ZwwWayne <wayne.zw@outlook.com>
+Date:   Mon Oct 19 14:38:43 2020 +0800
+
+    Merge branch 'refactor_doc' of github.com:open-mmlab/mmdetection into tutorial-refactor-data-train
+
+commit 5d07dda8719b0c67c11ad015410bc111e9f90200
+Author: Jiangmiao Pang <pangjiangmiao@gmail.com>
+Date:   Sun Oct 18 13:14:19 2020 +0800
+
+    fix cpu (#3948)
+
+commit d6b1386711b41c21c009f630ab7b5c011a166af6
+Author: Qiaofei Li <qjliqiaofei@gmail.com>
+Date:   Fri Oct 16 11:36:42 2020 +0800
+
+    Add supports for giou calculation in BboxOverlaps2D, and re-implements giou_loss using bbox_overlaps (#3936)
+    
+    * supports for BboxGIoU2D and re-implements giou_loss using bbox_gious
+    
+    * remove unnecessary
+    
+    * reformat
+    
+    * reformat docstring
+    
+    * reformat
+    
+    * rename
+    
+    * supports for giou calculating in BboxOverlaps2D, and re-implements giou_loss using bbox_overlaps
+    
+    * reformat
+    
+    * move giou related unit test from test_losses.py to test_iou2d_calculator.py
+    
+    * reformat
+    
+    * Avoid division by zero in PAA head when num_pos=0
+    
+    * explicitly add mode in giou_loss
+
+commit 25a3ac1b533e4d25e76c513a3a1c27f620f54fe8
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Fri Oct 16 10:56:06 2020 +0800
+
+    [Fix]: Avoid division by zero in PAA head when num_pos=0 (#3938)
+
+commit baf045a8276cea7060840fb73a6bc1825e909873
+Merge: 47c4bd2 9961ca3
+Author: AemikaChow <aemika.zou@connect.polyu.hk>
+Date:   Thu Oct 15 21:49:17 2020 +0800
+
+    Merge pull request #3937 from wangruohui/refactor_doc
+    
+    [doc] tutorial for existing dataset and model
+
+commit 9961ca3789b37aae6090e343fd50d7ac044d63ab
+Author: wangruohui <12756472+wangruohui@users.noreply.github.com>
+Date:   Thu Oct 15 17:43:03 2020 +0800
+
+    polish
+
+commit 8a286636a07f48435f439668edcfab94b7be8cba
+Author: wangruohui <12756472+wangruohui@users.noreply.github.com>
+Date:   Thu Oct 15 15:44:18 2020 +0800
+
+    finish train part
+
+commit 134be4d05dd4e81c1107c244e3c90a2429278ebc
+Author: wangruohui <12756472+wangruohui@users.noreply.github.com>
+Date:   Wed Oct 14 22:28:05 2020 +0800
+
+    update test section
+
+commit 638905cb3e2517ae5d8a0e6a2333be094177b714
+Author: wangruohui <12756472+wangruohui@users.noreply.github.com>
+Date:   Wed Oct 14 15:49:56 2020 +0800
+
+    stage
+
+commit 8b00fab74acc707b85b5b1a12d478f2075022fd5
+Author: wangruohui <12756472+wangruohui@users.noreply.github.com>
+Date:   Tue Oct 13 18:01:58 2020 +0800
+
+    rarrange and add instucrion to inference part
+
+commit a53d73140d0b2bc5f276ccc0e1958578c2ef205b
+Author: wangruohui <12756472+wangruohui@users.noreply.github.com>
+Date:   Tue Oct 13 18:01:04 2020 +0800
+
+    update to new checkpoint
+
+commit 882a1482fd4e47b69a7b340b81071498e6ebe420
+Author: wangruohui <12756472+wangruohui@users.noreply.github.com>
+Date:   Sat Oct 10 21:25:26 2020 +0800
+
+    copy and rearrange existing contents
+
+commit 409af1eeb8bec581cf7f2383d23c1c53ebaa7195
+Author: yuzhj <31239926+yuzhj@users.noreply.github.com>
+Date:   Thu Oct 15 17:19:45 2020 +0800
+
+    fix sabl validating bug in cascade_rcnn (#3913)
+
+commit 47c4bd23f9eff04619c724ab71d51e975682d89a
+Merge: e8ca06f ad1ba07
+Author: AemikaChow <aemika.zou@connect.polyu.hk>
+Date:   Wed Oct 14 13:17:21 2020 +0800
+
+    Merge pull request #3895 from yhcao6/get-started-verify-doc
+    
+    Get started verify doc
+
+commit e8ca06fbaa3a8a6e52db3a9850e97b7eec217622
+Merge: c07c3b3 9be7b8d
+Author: AemikaChow <aemika.zou@connect.polyu.hk>
+Date:   Wed Oct 14 13:16:45 2020 +0800
+
+    Merge pull request #3869 from xvjiarui/doc_prereq
+    
+    [Doc] Add pre-requisites
+
+commit c07c3b334526843dae458630e1b9e7544216799a
+Merge: 4a67d66 f820445
+Author: AemikaChow <aemika.zou@connect.polyu.hk>
+Date:   Wed Oct 14 13:16:15 2020 +0800
+
+    Merge pull request #3885 from RyanXLi/docs
+    
+    [Doc] Add installation
+
+commit 502cee2e8fef8f52ea06eff6a2d7a6d8d4b7cf40
+Author: Ryan Li <xlide@connect.ust.hk>
+Date:   Tue Oct 13 22:48:03 2020 +0800
+
+    Edit mmdet.core.export docstring (#3912)
+    
+    * edit mmdet.core.export docstring
+    
+    * update doctest
+    
+    * fix small bugs
+
+commit 9282ff1920b4258056908123c0cc8e40d0cdaa8e
+Author: yuzhj <31239926+yuzhj@users.noreply.github.com>
+Date:   Tue Oct 13 11:37:37 2020 +0800
+
+    typo (#3917)
+
+commit 0a7628d8f57df8b0cfcbf6345cf6d4cb5bd6638a
+Author: Ryan Li <xlide@connect.ust.hk>
+Date:   Mon Oct 12 15:57:01 2020 +0800
+
+    Added `generate_inputs_and_wrap_model` function for pytorch2onnx (#3857)
+    
+    * added `generate_inputs_and_wrap_model` function for pytorch2onnx
+    
+    * undo debugging changes
+    
+    * added model.cpu().eval()
+    
+    * refactored onnx
+    
+    * fix verify
+    
+    * move `generate_inputs_and_wrap_model` into mmdet.core.export
+    
+    * use `generate_inputs_and_wrap_model` in tools/pytorch2onnx.py
+
+commit f820445f319bdbba7a0a8429962e329349a29d53
+Author: RyanXLi <xlide@connect.ust.hk>
+Date:   Mon Oct 12 14:58:46 2020 +0800
+
+    minor fixes
+
+commit 44a7ef2e80f355defb943d02bbee4a011b362a9d
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sun Oct 11 10:44:42 2020 +0800
+
+    Bump to v2.5.0 (#3879)
+    
+    * bump to v2.5.0
+    
+    * update PR
+    
+    * resolve comments
+    
+    * clean unnecessary modification
+    
+    * update bc breaking
+    
+    * rephrase bc-breaking
+    
+    * rephrase
+
+commit 547eb8d12c1b29ad9644160ca5dcb223cc1d0ce6
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sun Oct 11 10:40:32 2020 +0800
+
+    [Fix]: fix mask rcnn training stuck problem when there is no positive rois (#3713)
+    
+    * Fix mask rcnn stuck problem when there is no positive rois
+    
+    * support non pos inference in cascade methods, link CU-49tawu
+    
+    * print mmcv version in CI
+    
+    * use mmcv repo to check wrappers
+    
+    * change cpu build
+    
+    * upgrade mmcv requirements and change ci back
+    
+    * use pre-built whl in CI
+
+commit 24d6635098c3e521dc9d8d50dc320fbec746082e
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sat Oct 10 21:24:53 2020 +0800
+
+    Add missing notes in data customization (#3906)
+
+commit 6a77952d50799dcf6aab74e619801bffe1b50c41
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sat Oct 10 20:09:20 2020 +0800
+
+    support to use pytorch 1.6 in docker (#3905)
+    
+    * support to use pytorch 1.6 in docker
+    
+    * update mmcv requirement
+    
+    * update docs
+
+commit 8753583e4fa50277bde4ba0f666f337a1387b864
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sat Oct 10 10:25:55 2020 +0800
+
+    [enhance]: Improve documentation of modules and dataset customization (#3821)
+    
+    * update tutorials for changing training settings
+    
+    * update
+    
+    * Update details of hook
+    
+    * resolve comments
+    
+    * reformat
+    
+    * Update module documentations
+    
+    * add notes for classes specification
+
+commit aebbaff6cbfec2d6ff85a6fc9a0c5a3d99196179
+Author: aboettcher <aboettcher@users.noreply.github.com>
+Date:   Thu Oct 8 09:37:32 2020 +0200
+
+    fix cv2 import error of ligGL.so.1 (#3891)
+
+commit 31dbbf7128491cd69c0790253888c2a54a85b502
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Wed Oct 7 19:40:10 2020 +0800
+
+    fix the API change bug of PAA (#3883)
+
+commit ad1ba07c3d934b0e11b9b86c742d7aeb686705f2
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Wed Oct 7 19:06:39 2020 +0800
+
+    add verify doc
+
+commit 9be7b8dec5c821da5c89aece379c07a4e8e62543
+Author: Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Wed Oct 7 11:44:03 2020 +0800
+
+    add mmcv install
+
+commit e572da1e2d84089c7cb3b84ac9a8a724647a32f5
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Tue Oct 6 18:00:12 2020 +0800
+
+    add verify doc
+
+commit 4a67d66af5054a77a5637ecb99d797a24859c69e
+Author: Ye Liu <yeliudev@outlook.com>
+Date:   Tue Oct 6 14:37:03 2020 +0800
+
+    Fix typo in bbox_flip (#3886)
+
+commit eb84f13b1e2861ac64612f45cc8d25c609aa4f3a
+Author: RyanXLi <xlide@connect.ust.hk>
+Date:   Mon Oct 5 21:10:01 2020 +0800
+
+    added installation and fixed some formatting
+
+commit ced1c57dd212a8542f5a6fbc504eb22338a49e65
+Author: LabMemNo003 <LabMemNo003@gmail.com>
+Date:   Sat Oct 3 16:17:36 2020 +0800
+
+    [Enhance]: Convert mask to bool before using it as img's index for robustness and speedup (#3870)
+    
+    * Convert mask to bool before using it as img's index
+    
+    * lint
+    
+    * Rewrite code in more concise way

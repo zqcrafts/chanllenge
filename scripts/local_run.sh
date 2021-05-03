@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1,2 ./tools/dist_train.sh $1 2

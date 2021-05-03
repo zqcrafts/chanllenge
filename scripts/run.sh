@@ -1,0 +1,1 @@
+./tools/dist_train.sh $1 6
